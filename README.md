@@ -39,7 +39,12 @@
 - Styleint
 - Technologies used - html,css and js
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [AWESOME BOOKS ES6]( https://lovimadaan.github.io/New-Awesome-Books-ES6/)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
