@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: auto;
+}
+
+header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border: 2px solid black;
+  min-width: 400px;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 0.6rem;
+  border-radius: 5.1px;
+}
+
+.navLogo {
+  width: 20%;
+  margin-right: 3.2rem;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: blue;
+  gap: 1.2rem;
+  width: 90%;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.separte {
+  height: 20px;
+  border: 1px solid black;
+}
+
+.bookList {
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bookList .dateandtime {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+.bookList .heading {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#libraryBooks {
+  width: 70%;
+  margin: 1rem auto;
+  border: 1px solid rgb(147, 148, 148);
+  border-radius: 5px;
+}
+
+.books {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.books p {
+  flex: 1;
+}
+
+.books:nth-child(even) {
+  background: rgb(229, 229, 229);
+  border-radius: 5px;
+}
+
+.contact {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+}
+
+#contact {
+  margin: 3rem auto;
+  display: none;
+}
+
+form h1 {
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer p {
+  font-weight: bold;
+  text-align: left;
+}
+
+#contact p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#contact ul {
+  margin-left: 4rem;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
+}
+
+#contact ul li {
+  margin-bottom: 1rem;
+}
+
+form {
+  width: 40%;
+  margin: 5rem auto;
+  display: none;
+}
+
+input {
+  margin-top: 2rem;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 2px solid;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+button {
+  font-weight: bold;
+}
+
+.submitBStn {
+  float: right;
+  padding: 0.3rem 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  padding: 2rem;
+  font-size: 15px;
+}
