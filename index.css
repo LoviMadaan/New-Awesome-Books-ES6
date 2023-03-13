@@ -40,7 +40,7 @@ header .nav {
 }
 
 .separte {
-  height: 20px;  
+  height: 20px;
   border: 1px solid black;
 }
 
@@ -149,7 +149,7 @@ input {
   padding: 1rem;
 }
 
-button {  
+button {
   font-weight: bold;
 }
 
