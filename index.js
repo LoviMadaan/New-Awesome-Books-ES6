@@ -1,16 +1,16 @@
 /* eslint-disable no-undef */
 
 import { Libraries, librariesContainer } from './modules/book.js';
-import dateTime from './modules/date.js';
+import dateanTime from './modules/date.js';
 import onePage from './modules/class.js';
 
-dateTime();
+dateanTime();
 onePage();
 
-const form = document.getElementById('myForm');
+const adForm = document.getElementById('addForm');
 
 // innitialize form submit to create Library instance
-form.addEventListener('submit', (e) => {
+adForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const id = Math.floor(Math.random() * 1000);
   const book = new Libraries(id, authorName.value, titleName.value);
